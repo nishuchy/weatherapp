@@ -1,0 +1,12 @@
+This is a flask application. Here I create a static folder for storing css. on templates it holds html and app.py contains the basic function. The application starts from app.py. In app.py index function contains the landing html. In html file, there are 2 buttons. Get Weather and Use my geo location. On the text box you can enter city name and country, or postalcode to fetch weather information. For wrong city name it will not work. On button click using post function get_weather will show data . In this work, we use 3 API. Geocoding API to get lat long and city name. Weather API to get weather forecast. Beside this, we use reverse geocoding to get location name from lat and lon. Here I use for 5 days forecasting so here we use a for loop. This api returns a weather code . get_weather_description function shows specific weather information from this weather code. So, all data will return in  JSON format. We represent this data in html page with dispayWeather function.
+
+To run this app simply type python app.py
+
+on the terminal
+
+Editor: PyCharm
+Language: flask, html, css, js
+
+GitHub Link: https://github.com/nishuchy/weatherapp
+
+
